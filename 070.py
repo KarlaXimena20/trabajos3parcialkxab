@@ -1,0 +1,6 @@
+country=("Francia","Inglaterra","España","Alemania","Australia")
+print(country)
+country=input("Inserte uno de los países de arriba: ")
+print(country, "has index number: ", country.index(country))
+num=int(input("Inserte un número que esté entre el 0 y el 4: "))
+print(country[num])
